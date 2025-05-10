@@ -35,6 +35,6 @@ $html = <<<HTML
 </html>
 HTML;
 
-file_put_contents('output.html', $html);
+file_put_contents('index.html', $html);
 echo "HTML файл успешно создан: output.html";
 ?>

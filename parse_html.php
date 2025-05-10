@@ -1,6 +1,6 @@
 <?php
 // Загрузка содержимого HTML
-$htmlContent = file_get_contents('output.html');
+$htmlContent = file_get_contents('index.html');
 
 // Создание DOMDocument для парсинга
 $dom = new DOMDocument();
