@@ -2,10 +2,16 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
+    <title>Хостинг. Бузикова Таня</title>
 </head>
 <body>
-    <title>Хостинг. Бузикова Таня</title>
     <h1>Хостинг. 2025-05-10 04:34:54</h1>
+    <p><strong>Заголовок страницы:</strong> <span id="pageTitle"></span></p>
     <h2>Хостинг. Я учу регулярные выражения на занятиях в Ангарском политехническом техникуме</h2>
+
+    <script>
+        // Получаем текст из тега <title> и вставляем его в элемент с id="pageTitle"
+        document.getElementById('pageTitle').textContent = document.title;
+    </script>
 </body>
 </html>
